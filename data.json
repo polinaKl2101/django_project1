@@ -1,0 +1,86 @@
+[
+  {
+    "model": "catalog.product",
+    "pk": 1,
+    "fields": {
+      "products_name": "Apple",
+      "description": "green",
+      "product_image": "",
+      "category": "Fruits",
+      "price_per_purchase": 100,
+      "date_created": "2023-06-01T00:14:41.276Z",
+      "last_time_modified": "2023-06-01T00:14:41.276Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 2,
+    "fields": {
+      "products_name": "Tomato",
+      "description": "red",
+      "product_image": "",
+      "category": "Vegetables",
+      "price_per_purchase": 50,
+      "date_created": "2023-06-01T00:15:02.102Z",
+      "last_time_modified": "2023-06-01T00:15:02.102Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 3,
+    "fields": {
+      "products_name": "Mercedes",
+      "description": "black",
+      "product_image": "",
+      "category": "Cars",
+      "price_per_purchase": 300,
+      "date_created": "2023-06-01T00:15:21.300Z",
+      "last_time_modified": "2023-06-01T00:15:21.300Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 4,
+    "fields": {
+      "products_name": "Ice",
+      "description": "Ice",
+      "product_image": "",
+      "category": "Whether",
+      "price_per_purchase": 4000,
+      "date_created": "2023-06-01T00:16:06.421Z",
+      "last_time_modified": "2023-06-01T00:16:06.421Z"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 1,
+    "fields": {
+      "category_name": "Cars",
+      "category_desc": "BMW"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 2,
+    "fields": {
+      "category_name": "Vegetables",
+      "category_desc": "Cucumber"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 3,
+    "fields": {
+      "category_name": "Fruits",
+      "category_desc": null
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 4,
+    "fields": {
+      "category_name": "Whether",
+      "category_desc": null
+    }
+  }
+]
