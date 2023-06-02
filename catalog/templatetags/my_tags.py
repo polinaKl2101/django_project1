@@ -4,6 +4,6 @@ from django.conf import settings
 register = template.Library()
 
 
-@register.filter(needs_autoescape=True)
+@register.filter
 def mediapath(image_path):
     return f"{settings.MEDIA_URL}{image_path}"
