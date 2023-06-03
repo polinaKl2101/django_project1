@@ -13,7 +13,7 @@ class Command(BaseCommand):
         materials = Category.objects.get(category_name='Материал')
 
         products_list = [
-            {'products_name': 'BMW', 'description': 'white', 'category': autos, 'price_per_purchase': 5000000},
+            {'products_name': 'BMW', 'product_image': 'prod_images/bmw.jpg' , 'description': 'white', 'category': autos, 'price_per_purchase': 5000000},
             {'products_name': 'Milk', 'description': 'coconut', 'category': products, 'price_per_purchase': 50},
             {'products_name': 'Jeans', 'description': 'levis', 'category': goods, 'price_per_purchase': 3579},
             {'products_name': 'Gold', 'description': 'gold', 'category': materials, 'price_per_purchase': 6666666},
