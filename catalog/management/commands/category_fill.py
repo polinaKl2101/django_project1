@@ -7,10 +7,10 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         category_list = [
-            {'category_name': 'Продукты', 'category_desc': 'Молоко'},
-            {'category_name': 'Вещи', 'category_desc': 'Джинсы'},
-            {'category_name': 'Автомобили', 'category_desc': 'BMW'},
-            {'category_name': 'Материал', 'category_desc': 'Железо'},
+            {'category_name': 'Продукты', 'category_desc': 'еда'},
+            {'category_name': 'Вещи', 'category_desc': 'одежда'},
+            {'category_name': 'Автомобили', 'category_desc': 'машины'},
+            {'category_name': 'Материал', 'category_desc': 'вещества'},
         ]
 
         Category.objects.all().delete()
